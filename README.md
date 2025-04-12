@@ -1,59 +1,50 @@
-# Web Development Project 5 - *Data Dashboard*
+# Web Development Project 6 - *Data Dashboard - Part 2*
 
 Submitted by: **Abha Mam**
 
-This web app: **This is a responsive Weather Dashboard that displays weather forecast data fetched from the WeatherBit API. It presents forecast days in a visually appealing layout, a moving gradient background, and dynamic white particles (via particles.js) that add a modern touch. The dashboard includes summary statistics (total forecast days, mean temperature, maximum temperature), a search bar to filter the forecast by date or weather description, and an additional temperature filter to display forecast days above a specified temperature.**
+This web app: **is a weather dashboard for each day displaying temperature trends and comparisons as well, each day is displayed on a card which when clicked redirects the user to a more detailed view on the weather of that day, users also have the option to filter based on information on each card and/or minimum temp of the day to get a more targeted search**
 
-Time spent: **5** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The site has a dashboard displaying a list of data fetched using an API call**
-  - The dashboard should display at least 10 unique items, one per row
-  - The dashboard includes at least two features in each row
-- [X] **`useEffect` React hook and `async`/`await` are used**
-- [X] **The app dashboard includes at least three summary statistics about the data** 
-  - The app dashboard includes at least three summary statistics about the data, such as:
-    - *insert details here*
-- [X] **A search bar allows the user to search for an item in the fetched data**
-  - The search bar **correctly** filters items in the list, only displaying items matching the search query
-  - The list of results dynamically updates as the user types into the search bar
-- [X] **An additional filter allows the user to restrict displayed items by specified categories**
-  - The filter restricts items in the list using a **different attribute** than the search bar 
-  - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
-  - The dashboard list dynamically updates as the user adjusts the filter
+- [X] **Clicking on an item in the list view displays more details about it**
+  - Clicking on an item in the dashboard list navigates to a detail view for that item
+  - Detail view includes extra information about the item not included in the dashboard view
+  - The same sidebar is displayed in detail view as in dashboard view
+  - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
+- [X] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+  -  *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
+- [X] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+  - At least two charts should be incorporated into the dashboard view of the site
+  - Each chart should describe a different aspect of the dataset
+
 
 The following **optional** features are implemented:
 
-- [X] Multiple filters can be applied simultaneously
-- [X] Filters use different input types
-  - e.g., as a text input, a dropdown or radio selection, and/or a slider
-- [X] The user can enter specific bounds for filter values
+- [ ] The site’s customized dashboard contains more content that explains what is interesting about the data 
+  - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
+- [ ] The site allows users to toggle between different data visualizations
+  - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
 
+  
 The following **additional** features are implemented:
 
-- [X] Moving gradient background for a dynamic visual effect.
-- [X] Dynamic, moving white particles in the background using particles.js.
-- [X] Moving gradient background for a dynamic visual effect.
+* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmRybjZ1aXFtd3loM3E5amw1enNraHEwb3o1ejYwbmZhcW4zbzcyaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J86gHxm9X1CYJElsIK/giphy.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with GIPHY
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+N/A
 
 ## License
 
